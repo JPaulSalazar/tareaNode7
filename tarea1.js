@@ -7,6 +7,10 @@ exports.fruits = function (fruit){
             exist = true
         }
     }
+    return listResult(exist)
+}
+
+function listResult(exist){
     if (exist) {
         msj = "la fruta se encuentra en la lista"
     }else{
